@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 🚨 Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLH9GD9SVR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JLH9GD9SVR');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>발해만 횡단 3박 4일(4박 5일 옵션) 견적서</title>
+
+    <!-- 🌟 카카오톡/SNS 공유 시 보여질 미리보기 설정 (Open Graph) -->
+    <meta property="og:title" content="[단독 맞춤] 대련/연태/위해 3박 4일 (4박5일 옵션 포함)">
+    <meta property="og:description" content="안중근에서 장보고까지, 역사와 낭만을 잇는 고품격 여정. 투어메이커 단독 일정.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdqC8oF0K3x6VqO8x7wQ5qZ4x9rT6yU8iO2pA4sS6dF8gH0jL2kZ4x6cV8bN0mM2lK4jH6gF8d/s1600/china_ferry_thumbnail.jpg">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* 1. SETUP & RESET */
+        * {
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        body {
+            background-color: #525659;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin: 0;
+            padding: 40px 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            color: #111;
+            line-height: 1.5;
+        }
+
+        /* 2. RESPONSIVE PAGE CONTAINER */
+        .page-container {
+            width: 100%;
+            max-width: 210mm; /* A4 Width */
+            min-height: 297mm; /* A4 Height */
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            position: relative;
+            padding: 20mm;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        /* 3. MOBILE OPTIMIZATION */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 0;
+                background-color: #f4f4f4;
+                gap: 10px;
+            }
+            .page-container {
+                padding: 20px;
+                min-height: auto;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+            header {
+                flex-direction: column;
+                align-items: flex-start !important;
+                gap: 15px;
+            }
+            .logo-img {
+                align-self: flex-end;
+                margin-top: -10px;
+                height: 28px !important; 
+                width: auto;
+            }
+            h1 {
+                font-size: 22px !important;
+            }
+            .table-wrap {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                margin-bottom: 20px;
+                border: 1px solid #eee;
+            }
+            table {
+                min-width: 600px;
+            }
+        }
+
+        /* 4. PRINT OPTIMIZATION */
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+                gap: 0;
+            }
+            .page-container {
+                width: 100%;
+                max-width: none;
+                box-shadow: none;
+                page-break-after: always;
+                border: none;
+                padding: 20mm;
+                margin: 0;
+            }
+            .video-section {
+                display: none;
+            }
+        }
+
+        /* 5. TYPOGRAPHY & HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 3px solid #8B0000; /* Dark Red for China Theme */
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+        .header-title h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #8B0000;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .header-title span {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .logo-img {
+            height: 40px;
+            width: auto;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin: 30px 0 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-left: 5px solid #8B0000;
+            padding-left: 10px;
+            background-color: #fff5f5;
+            padding: 8px 10px;
+        }
+
+        /* 6. CONTENT BLOCKS */
+        .notice-box {
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        
+        .notice-box strong { color: #1e3a8a; display: block; margin-bottom: 8px; font-size: 14px; }
+        .notice-box ul { margin: 0; padding-left: 20px; color: #475569; }
+        .notice-box li { margin-bottom: 5px; }
+
+        /* Tables */
+        .table-wrap {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: #334155;
+            font-weight: 700;
+            text-align: center;
+            white-space: nowrap;
+            width: 18%;
+        }
+
+        .center { text-align: center; }
+        .left { text-align: left; }
+        
+        .day-cell {
+            background-color: #8B0000;
+            color: #fff;
+            font-weight: bold;
+            width: 60px;
+            text-align: center;
+        }
+        
+        .highlight-blue { color: #2563eb; font-weight: 600; }
+        .highlight-red { color: #e11d48; font-weight: 600; }
+
+        .time-badge {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            margin-right: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .doc-footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 10px;
+        }
+
+        .checkpoint {
+            background-color: #fffbeb;
+            border: 1px solid #fcd34d;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #92400e;
+            margin-top: 10px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        /* 🚨 Video Section Styles */
+        .video-section {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .video-caption {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+            margin-right: 5px;
+        }
+        .tag-history { background-color: #795548; }
+        .tag-ocean { background-color: #0288d1; }
+        .tag-food { background-color: #e64a19; }
+
+        /* Option Box Style */
+        .option-box {
+            background-color: #f0fdf4;
+            border: 2px dashed #16a34a;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        .option-header {
+            font-size: 18px;
+            font-weight: bold;
+            color: #15803d;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .option-content {
+            font-size: 13px;
+            color: #333;
+        }
+        .option-content b {
+            color: #14532d;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- PAGE 1: Overview & Highlights -->
+    <div class="page-container">
+        <header>
+            <div class="header-title">
+                <h1>[견적 의뢰서] 발해의 진주를 잇다<br>대련/연태/위해 (맞춤 견적)</h1>
+                <span>작성일: <span id="current-date"></span> | 수신: 랜드사 담당자 귀하 | 기간: 3박4일 (or 4박5일)</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="logo-img">
+        </header>
+
+        <!-- Script for Auto Date -->
+        <script>
+            const date = new Date();
+            const formattedDate = `${date.getFullYear()}. ${String(date.getMonth() + 1).padStart(2, '0')}. ${String(date.getDate()).padStart(2, '0')}`;
+            document.getElementById('current-date').innerText = formattedDate;
+        </script>
+
+        <div class="notice-box">
+            <strong><i class="fas fa-bullseye"></i> 본 상품의 핵심 컨셉</strong>
+            <ul>
+                <li><b>[육해공 입체 여행]</b> 항공(IN/OUT) + 대형 페리(발해만 횡단) + 전용 버스를 이용한 다채로운 이동 경험</li>
+                <li><b>[역사 스토리텔링]</b> 대련의 안중근 의사부터 위해의 장보고 대사까지 이어지는 한민족 역사 순례</li>
+                <li><b>[미식과 힐링]</b> 동북요리, 훠궈, 산동요리(루차이), 해산물 특식 등 중국 미식 탐방</li>
+            </ul>
+        </div>
+
+        <h2><i class="fas fa-list-alt"></i> 여행 개요 (Summary)</h2>
+        <div class="table-wrap">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>여행 지역</th>
+                        <td class="left">중국 대련(요녕성) - 연태(산동성) - 위해(산동성)</td>
+                    </tr>
+                    <tr>
+                        <th>일정 옵션</th>
+                        <td class="left">
+                            <b>Option A:</b> 3박 4일 (기본 타이트한 일정)<br>
+                            <b>Option B:</b> 4박 5일 (연태/위해 1박 추가로 여유로운 일정)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>항공편</th>
+                        <td class="left">
+                            <b>대한항공 / 아시아나 / 중국남방항공 (오픈조)</b><br>
+                            IN: 인천 -> 대련 (DLC) / OUT: 위해(WEH) or 연태(YNT) -> 인천
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>주요 숙박</th>
+                        <td class="left">
+                            <i class="fas fa-hotel"></i> <b>대련:</b> 푸라마, 샹그릴라 급 (4-5성)<br>
+                            <i class="fas fa-hotel"></i> <b>연태:</b> 쉐라톤, 힐튼 급 (오션뷰)<br>
+                            <i class="fas fa-hotel"></i> <b>위해:</b> 블리스 인터내셔널 급 (특급)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>이동 수단</th>
+                        <td class="left">
+                            전용 리무진 버스 + <b>발해만 횡단 대형 페리 (Bohai Jewel호 등)</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2><i class="fas fa-check-circle"></i> 포함 / 불포함 사항 (단독 행사 기준)</h2>
+        <div class="table-wrap">
+            <table>
+                <colgroup>
+                    <col style="width: 20%">
+                    <col>
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>포함 사항</th>
+                        <td class="left">
+                            왕복 항공료(텍스/유류 포함), 전 일정 특급 호텔(2인1실), 전용 차량 및 가이드,<br>
+                            <b>기사/가이드 봉사료(전 일정 포함)</b>, 대련-연태 페리 탑승권, 관광지 입장료,<br>
+                            전 일정 식사(특식 포함), 여행자 보험
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="color: #e11d48;">불포함 사항</th>
+                        <td class="left">
+                            기타 개인 경비 및 매너팁<br>
+                            <span style="font-size:11px; color:#059669;">※ 중국 비자 불포함 (단, 2026년 말까지 한국인 무비자 적용)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="checkpoint">
+            <i class="fas fa-exclamation-triangle"></i> <b>Risk Management:</b> 
+            페리는 기상 악화 시 운항이 통제될 수 있으며, 이 경우 대련-연태 구간은 항공 또는 고속철도로 대체될 수 있습니다. (사전 안내 필수)
+        </div>
+
+        <div class="doc-footer">
+            1 / 4 Page | Travel with TOUR MAKER
+        </div>
+    </div>
+
+    <!-- PAGE 2: Days 1 & 2 (History & Ferry) -->
+    <div class="page-container">
+        <header>
+            <div class="header-title">
+                <h1>상세 일정표 (Day 1 - Day 2)</h1>
+                <span>역사의 현장 대련 & 발해만 횡단 크루즈</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="logo-img">
+        </header>
+
+        <h2><i class="fas fa-history"></i> 1일차: 역사의 현장, 대련 (Dalian)</h2>
+        <div class="table-wrap">
+            <table>
+                <colgroup>
+                    <col style="width: 15%">
+                    <col>
+                    <col style="width: 15%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>지역</th>
+                        <th>상세 일정</th>
+                        <th>식사</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center">
+                            인천<br>▼<br>대련
+                        </td>
+                        <td class="left">
+                            <span class="time-badge">오전</span> 인천공항 출발 (비행시간 약 1시간 10분)<br>
+                            대련 국제공항 도착 후 가이드 미팅<br><br>
+                            
+                            <b>[중식]</b> 대련 현지식 (동북 요리 또는 해산물)<br><br>
+
+                            <span class="tag tag-history">역사탐방</span> <b>근대 역사 유적지 순례</b><br>
+                            ■ <b>여순 감옥 (뤼순 형무소):</b> 안중근 의사와 신채호 선생이 순국한 성지<br>
+                            ■ <b>관동 법원:</b> 당시의 재판 현장이 보존된 역사 교육장<br><br>
+
+                            <span class="tag tag-ocean">관광</span> <b>대련의 이국적 낭만</b><br>
+                            ■ <b>성해 광장:</b> 아시아 최대 규모, '책을 펼친 모양'의 조형물<br>
+                            ■ <b>동방수성:</b> 베네치아를 본뜬 물의 도시, 아름다운 야경 산책<br><br>
+                            
+                            <b>[석식]</b> <span class="highlight-red">훠궈 (중국식 샤브샤브)</span><br>
+                            호텔 투숙 및 휴식
+                        </td>
+                        <td class="center">
+                            중: 현지식<br>
+                            석: 훠궈<br><br>
+                            <span style="font-size:11px; color:#666">대련 4성급<br>(푸라마 등)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2><i class="fas fa-ship"></i> 2일차: 바다를 건너다 (Ferry Crossing)</h2>
+        <div class="table-wrap">
+            <table>
+                <colgroup>
+                    <col style="width: 15%">
+                    <col>
+                    <col style="width: 15%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>지역</th>
+                        <th>상세 일정</th>
+                        <th>식사</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center">
+                            대련<br>▼<br>연태
+                        </td>
+                        <td class="left">
+                            호텔 조식 후<br><br>
+                            ■ <b>방추이도 (봉추도):</b> 아름다운 해안 도로 드라이브 및 국빈관 조망<br><br>
+                            
+                            <b>[중식]</b> 터미널 인근 현지식 또는 선내 도시락<br><br>
+
+                            <span class="tag tag-ocean">하이라이트</span> <b>발해만 횡단 (대련항 → 연태항)</b><br>
+                            ■ <b>대형 페리 탑승 (약 6~7시간 소요)</b><br>
+                            - 보하이 쥬얼(Bohai Jewel)호 등 2만 톤급 대형 선박 이용<br>
+                            - 단순 이동이 아닌 <b>'크루즈 체험'</b>: 갑판 위 갈매기 먹이 주기, 선상 일몰 감상<br>
+                            <span style="font-size:12px; color:#666;">※ 기상 상황에 따라 쾌속선 변경 또는 항공 이동 가능</span><br><br>
+
+                            <b>[석식]</b> <span class="highlight-red">산동요리 (루차이) - 중국 4대 요리의 진수</span><br>
+                            연태 도착 후 호텔 이동
+                        </td>
+                        <td class="center">
+                            조: 호텔식<br>
+                            중: 현지식<br>
+                            석: 산동식<br><br>
+                            <span style="font-size:11px; color:#666">연태 4성급<br>(쉐라톤 등)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="doc-footer">
+            2 / 4 Page | Travel with TOUR MAKER
+        </div>
+    </div>
+
+    <!-- PAGE 3: Days 3 & 4 (Standard Itinerary) -->
+    <div class="page-container">
+        <header>
+            <div class="header-title">
+                <h1>상세 일정표 (Day 3 - Day 4)</h1>
+                <span>와인의 도시 연태 & 해상왕 장보고의 위해</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="logo-img">
+        </header>
+
+        <h2><i class="fas fa-glass-cheers"></i> 3일차: 풍류와 힐링 (Yantai -> Weihai)</h2>
+        <div class="table-wrap">
+            <table>
+                <colgroup>
+                    <col style="width: 15%">
+                    <col>
+                    <col style="width: 15%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>지역</th>
+                        <th>상세 일정</th>
+                        <th>식사</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center">
+                            연태<br>▼<br>위해
+                        </td>
+                        <td class="left">
+                            호텔 조식 후<br><br>
+                            ■ <b>장유 포도주 박물관:</b> 아시아 최초의 와이너리, 지하 저장고 투어 및 시음<br>
+                            ■ <b>연태산 공원:</b> 영사관 거리 산책 및 시내 전경 조망<br><br>
+                            
+                            <b>[중식]</b> 한식 (연태/위해는 한국 본토보다 맛있는 한식으로 유명)<br><br>
+
+                            위해로 이동 (차량 약 1시간 소요)<br>
+                            ■ <b>행복문 (Xingfu Men):</b> '위해의 개선문', 전망대 관람<br>
+                            ■ <b>위해 공원:</b> 바다를 배경으로 한 대형 액자 조형물 포토존<br><br>
+
+                            <b>[석식]</b> <span class="highlight-red">해산물 특식 (조개찜 등)</span><br><br>
+                            
+                            <span class="highlight-blue">★ 야간 추천 일정: 한락방(한러팡) 야시장 투어</span><br>
+                            - 한국풍 거리지만 중국의 화려한 밤문화를 가장 잘 느낄 수 있는 핫플레이스
+                        </td>
+                        <td class="center">
+                            조: 호텔식<br>
+                            중: 한식<br>
+                            석: 해산물<br><br>
+                            <span style="font-size:11px; color:#666">위해 특급<br>(블리스 등)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2><i class="fas fa-flag"></i> 4일차 (최종일): 해상왕 장보고, 귀국</h2>
+        <div class="table-wrap">
+            <table>
+                <colgroup>
+                    <col style="width: 15%">
+                    <col>
+                    <col style="width: 15%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>지역</th>
+                        <th>상세 일정</th>
+                        <th>식사</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center">
+                            위해<br>▼<br>인천
+                        </td>
+                        <td class="left">
+                            호텔 조식 후<br><br>
+                            <span class="tag tag-history">역사탐방</span> <b>한민족의 기상을 찾아서</b><br>
+                            ■ <b>적산법화원 (석도):</b> 해상왕 장보고가 세운 사찰<br>
+                            - 장보고 기념관 관람 및 대형 적산명신 동상 조망<br>
+                            - 1일차 안중근 의사 유적지와 수미상관을 이루는 역사적 피날레<br><br>
+                            
+                            <b>[중식]</b> 현지식 (만두 또는 간단식)<br><br>
+
+                            간단한 기념품 쇼핑 (산동 대추, 땅콩 등)<br>
+                            위해(WEH) 또는 연태(YNT) 공항으로 이동<br><br>
+
+                            위해/연태 출발 -> 인천 도착 (약 50분 소요)<br>
+                            안녕히 가십시오.
+                        </td>
+                        <td class="center">
+                            조: 호텔식<br>
+                            중: 현지식
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="doc-footer">
+            3 / 4 Page | Travel with TOUR MAKER
+        </div>
+    </div>
+
+    <!-- PAGE 4: 4N5D Option & Video -->
+    <div class="page-container">
+        <header>
+            <div class="header-title">
+                <h1>[선택 옵션] 4박 5일 연장 시</h1>
+                <span>봉래각 역사 탐방 및 온천 힐링 (1일 추가)</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="logo-img">
+        </header>
+
+        <!-- 🔄 [NEW] 4N5D Extension Option Block -->
+        <div class="option-box">
+            <div class="option-header">
+                <i class="fas fa-calendar-plus"></i> [Option B] 4박 5일 일정 진행 시 (1일 추가)
+            </div>
+            <div class="option-content">
+                <b>※ 기존 3박 4일 일정은 이동 거리가 길어 다소 타이트할 수 있습니다. 여유로운 일정을 위해 하루를 추가하시면 아래와 같이 진행됩니다.</b><br><br>
+                <b>📍 추가되는 1일의 주요 동선: 연태(봉래) 또는 위해 힐링</b><br><br>
+                
+                <ul style="padding-left: 20px; line-height: 2.0;">
+                    <li><b>[오전] 봉래각 (Penglai Pavilion) 탐방:</b><br>
+                    중국 4대 누각 중 하나로 '신선이 노니는 곳'이라 불리는 도교 명소입니다. 바다 위 신기루를 볼 수 있다는 전설이 깃든 곳으로, 탁 트인 발해만의 절경을 감상합니다.</li>
+                    
+                    <li><b>[오후] 천목 온천 (Tianmu Hot Spring) 체험:</b><br>
+                    여행의 피로를 푸는 힐링 타임입니다. 다양한 테마의 노천탕을 보유한 대규모 온천 리조트에서 휴식을 취합니다.</li>
+                    
+                    <li><b>[효과]</b><br>
+                    빡빡한 이동 일정 속에 '쉼표'를 찍고, 단순 관광을 넘어 산동성의 진정한 휴양 매력을 느낄 수 있습니다.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 🚨 YouTube Video Section (Curated) -->
+        <div class="video-section">
+            <h2><i class="fab fa-youtube" style="color:red;"></i> 미리 만나는 역사와 낭만 (추천 영상)</h2>
+            <div class="video-container">
+                <!-- EBS World Theme Travel: Shandong/Weihai related clip -->
+                <iframe src="https://www.youtube.com/embed/u_1v3t3Z-9Y" title="EBS 세계테마기행 - 중국 산둥성 기행" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="video-caption">▲ EBS 세계테마기행: 중국 산둥성 편 (해상왕 장보고의 발자취와 적산법화원)</p>
+        </div>
+
+        <div class="doc-footer">
+            4 / 4 Page | Travel with TOUR MAKER
+        </div>
+    </div>
+
+</body>
+</html>
